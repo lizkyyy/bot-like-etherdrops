@@ -30,7 +30,6 @@ Before you start coding, ensure you have Python installed on your machine.
 1. **Create a Project Folder**:
    Create a folder on your computer where you will keep all your bot files. Let’s call it **etherdrops-bot**.
 
-   Example:
    ```
    etherdrops-bot/
    ```
@@ -41,7 +40,7 @@ Before you start coding, ensure you have Python installed on your machine.
 3. **Create a `.env` File (Optional but Recommended)**:
    To keep your Telegram bot token and Infura/Alchemy API key secure, you can create a `.env` file inside the same directory and store the sensitive data there. (Make sure to install `python-dotenv` if using this approach).
 
-   Example `.env` file:
+`.env` file:
    ```
    TELEGRAM_TOKEN=your_telegram_token_here
    INFURA_PROJECT_ID=your_infura_project_id_here
