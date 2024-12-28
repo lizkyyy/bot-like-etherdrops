@@ -1,8 +1,8 @@
-# bot-like-etherdrops
+---
 
-Install Python and Required Libraries
+### **Step 1: Install Python and Required Libraries**
 
-Before you start coding, ensure you have Python installed on your machine.
+Before you start coding, ensure you have **Python** installed on your machine.
 
 1. **Install Python** (if you don’t have it yet):
    - Download from: [Python Official Website](https://www.python.org/downloads/).
@@ -16,7 +16,7 @@ Before you start coding, ensure you have Python installed on your machine.
 
 ---
 
-**Step 2: Create a Telegram Bot**
+### **Step 2: Create a Telegram Bot**
 
 1. Open Telegram and search for **BotFather**.
 2. Start a conversation and send the command `/newbot`.
@@ -25,11 +25,12 @@ Before you start coding, ensure you have Python installed on your machine.
 
 ---
 
-**Step 3: Set Up Your Files**
+### **Step 3: Set Up Your Files**
 
 1. **Create a Project Folder**:
    Create a folder on your computer where you will keep all your bot files. Let’s call it **etherdrops-bot**.
 
+   Example:
    ```
    etherdrops-bot/
    ```
@@ -40,7 +41,7 @@ Before you start coding, ensure you have Python installed on your machine.
 3. **Create a `.env` File (Optional but Recommended)**:
    To keep your Telegram bot token and Infura/Alchemy API key secure, you can create a `.env` file inside the same directory and store the sensitive data there. (Make sure to install `python-dotenv` if using this approach).
 
-`.env` file:
+   Example `.env` file:
    ```
    TELEGRAM_TOKEN=your_telegram_token_here
    INFURA_PROJECT_ID=your_infura_project_id_here
@@ -55,7 +56,7 @@ Before you start coding, ensure you have Python installed on your machine.
 
 ---
 
-**Step 4: Write the Bot Code**
+### **Step 4: Write the Bot Code**
 
 1. Open `etherdrops_bot.py` in your preferred code editor (e.g., Visual Studio Code, Sublime Text, etc.).
 2. Paste the following code into the file:
@@ -207,9 +208,11 @@ if __name__ == "__main__":
 
 ---
 
-**Step 6: Enhancements and Customization**
+### **Step 6: Enhancements and Customization**
 
 - **Rate Limiting**: Add limits on how often users can request updates.
 - **Gas Price Alerts**: Add a feature to notify users when gas prices reach a certain threshold.
 - **Security**: Ensure that private keys and other sensitive data are stored securely.
 - **Database**: If you plan to scale the bot, use a database (e.g., SQLite, PostgreSQL) to store user subscriptions.
+
+---
